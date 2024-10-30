@@ -6,6 +6,7 @@ export default {
     extend: {
       backgroundImage: {
         'hero-background': "url('/src/assets/hero-background.jpg')",
+        'contribute-background': "url('/src/assets/forest-contribute.jpg')",
       },
       borderRadius: {
         lg: 'var(--radius)',
