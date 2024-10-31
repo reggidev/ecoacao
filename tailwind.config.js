@@ -8,6 +8,9 @@ export default {
         'hero-background': "url('/src/assets/hero-background.jpg')",
         'contribute-background': "url('/src/assets/forest-contribute.jpg')",
       },
+      screens: {
+        'know-about-us': '1175px',
+      },
       borderRadius: {
         lg: 'var(--radius)',
         md: 'calc(var(--radius) - 2px)',
