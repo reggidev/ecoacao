@@ -1,4 +1,5 @@
 import { MenuIcon } from 'lucide-react'
+import { Link } from 'react-router-dom'
 
 import { Button } from '@/components/ui/button'
 import {
@@ -14,12 +15,12 @@ const navLinks = [
   {
     id: 1,
     title: 'Home',
-    href: '#',
+    href: '/',
   },
   {
     id: 2,
     title: 'Sobre nós',
-    href: '#',
+    href: '/sobre-nos',
   },
 ]
 
@@ -27,29 +28,29 @@ export function Header() {
   return (
     <header className="sticky left-0 top-0 z-50 bg-white px-8 py-6 shadow-lg lg:px-16">
       <div className="mx-auto flex max-w-7xl items-center justify-between">
-        <a
-          href="/"
+        <Link
+          to="/"
           className="cursor-pointer text-2xl font-bold tracking-tighter"
         >
           <span>EcoAção</span>
-        </a>
+        </Link>
 
         {/* DESKTOP NAVBAR */}
         <div className="hidden lg:flex">
           <ul className="flex items-center gap-6 font-medium tracking-tight text-gray-500">
             {navLinks.map((link) => (
               <li key={link.id} className="cursor-pointer hover:text-primary">
-                <a href={link.href}>{link.title}</a>
+                <Link to={link.href}>{link.title}</Link>
               </li>
             ))}
           </ul>
         </div>
         <div className="hidden lg:flex">
-          <a href="#">
+          <Link to="/contato">
             <Button className="w-28 text-sm tracking-tight text-black">
               Contato
             </Button>
-          </a>
+          </Link>
         </div>
 
         {/* MOBILE NAVBAR */}
@@ -74,19 +75,19 @@ export function Header() {
                         className="w-full text-sm font-semibold uppercase tracking-tight hover:bg-primary"
                         asChild
                       >
-                        <a href={link.href} className="text-right">
+                        <Link to={link.href} className="text-right">
                           {link.title}
-                        </a>
+                        </Link>
                       </Button>
                     </SheetClose>
                   </div>
                 ))}
               </div>
-              <a href="#">
+              <Link to="/contato">
                 <Button className="w-full text-sm font-semibold uppercase tracking-tight text-black">
                   Contato
                 </Button>
-              </a>
+              </Link>
             </SheetContent>
           </Sheet>
         </div>
