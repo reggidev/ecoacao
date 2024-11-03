@@ -13,6 +13,7 @@ export default {
       },
       screens: {
         'know-about-us': '1175px',
+        'out-mission': '1350px',
       },
       borderRadius: {
         lg: 'var(--radius)',
