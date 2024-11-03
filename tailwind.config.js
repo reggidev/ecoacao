@@ -7,6 +7,9 @@ export default {
       backgroundImage: {
         'hero-background': "url('/src/assets/hero-background.jpg')",
         'contribute-background': "url('/src/assets/forest-contribute.jpg')",
+        'card-one': "url('/src/assets/card-one.jpg')",
+        'card-two': "url('/src/assets/card-two.jpg')",
+        'card-three': "url('/src/assets/card-three.jpg')",
       },
       screens: {
         'know-about-us': '1175px',
