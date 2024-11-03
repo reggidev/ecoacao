@@ -18,17 +18,7 @@ const navLinks = [
   },
   {
     id: 2,
-    title: 'About us',
-    href: '#',
-  },
-  {
-    id: 3,
-    title: 'What we do',
-    href: '#',
-  },
-  {
-    id: 4,
-    title: 'Contact',
+    title: 'Sobre nós',
     href: '#',
   },
 ]
@@ -37,7 +27,10 @@ export function Header() {
   return (
     <header className="sticky left-0 top-0 z-50 bg-white px-8 py-6 shadow-lg lg:px-16">
       <div className="mx-auto flex max-w-7xl items-center justify-between">
-        <a href="/" className="cursor-pointer text-2xl tracking-tighter">
+        <a
+          href="/"
+          className="cursor-pointer text-2xl font-bold tracking-tighter"
+        >
           <span>EcoAção</span>
         </a>
 
@@ -54,7 +47,7 @@ export function Header() {
         <div className="hidden lg:flex">
           <a href="#">
             <Button className="w-28 text-sm tracking-tight text-black">
-              Donate
+              Contato
             </Button>
           </a>
         </div>
@@ -91,7 +84,7 @@ export function Header() {
               </div>
               <a href="#">
                 <Button className="w-full text-sm font-semibold uppercase tracking-tight text-black">
-                  Donate
+                  Contato
                 </Button>
               </a>
             </SheetContent>
