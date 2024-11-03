@@ -2,7 +2,7 @@ import knowAboutUs from '@/assets/know-about-us.jpg'
 
 export function KnowAboutUs() {
   return (
-    <section className="px-10 py-10 lg:px-32">
+    <section className="p-10 lg:px-32">
       <div className="mx-auto flex max-w-7xl flex-col items-center md:flex-row">
         <div className="mx-auto max-w-lg lg:w-2/3">
           <span className="font-semibold uppercase tracking-wider">
