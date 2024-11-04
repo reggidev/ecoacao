@@ -1,7 +1,7 @@
 export function OurMission() {
   return (
     <section className="bg-black p-10 text-white lg:px-32">
-      <div className="out-mission:grid-cols-2 mx-auto grid max-w-7xl grid-cols-1">
+      <div className="mx-auto grid max-w-7xl grid-cols-1 out-mission:grid-cols-2">
         <div className="mx-auto max-w-[500px]">
           <span className="font-normal uppercase tracking-widest">
             our mission
@@ -21,7 +21,7 @@ export function OurMission() {
           </p>
         </div>
 
-        <div className="out-mission:mt-0 mx-auto mt-10 max-w-[500px]">
+        <div className="mx-auto mt-10 max-w-[500px] out-mission:mt-0">
           <span className="font-normal uppercase tracking-widest">
             our Vision
           </span>
