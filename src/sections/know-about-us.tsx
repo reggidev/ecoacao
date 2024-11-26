@@ -1,4 +1,4 @@
-import knowAboutUs from '@/assets/know-about-us.jpg'
+import knowAboutUs from '@/_assets/know-about-us.jpg'
 
 export function KnowAboutUs() {
   return (
