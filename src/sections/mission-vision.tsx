@@ -1,6 +1,9 @@
-export function OurMission() {
+import missionCard from '@/_assets/mission-card.jpg'
+import visionCard from '@/_assets/vision-card.jpg'
+
+export function MissionVision() {
   return (
-    <section className="bg-black p-10 text-white lg:px-32">
+    <section className="bg-gray-background p-10 lg:px-32">
       <div className="mx-auto grid max-w-7xl grid-cols-1 out-mission:grid-cols-2">
         <div className="mx-auto max-w-[500px]">
           <span className="font-normal uppercase tracking-widest">
@@ -19,6 +22,8 @@ export function OurMission() {
             vitae erat. Aenean faucibus nibh et justo cursus id rutrum lorem
             imperdiet. Nunc ut sem vitae risus tristique posuere.
           </p>
+
+          <img src={missionCard} alt="Card One" className="mt-4 rounded-xl" />
         </div>
 
         <div className="mx-auto mt-10 max-w-[500px] out-mission:mt-0">
@@ -37,6 +42,8 @@ export function OurMission() {
             vitae erat. Aenean faucibus nibh et justo cursus id rutrum lorem
             imperdiet. Nunc ut sem vitae risus tristique posuere.
           </p>
+
+          <img src={visionCard} alt="Card One" className="mt-4 rounded-xl" />
         </div>
       </div>
     </section>
