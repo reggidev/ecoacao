@@ -1,6 +1,7 @@
 import { MenuIcon } from 'lucide-react'
 import { Link } from 'react-router-dom'
 
+import { NavLink } from '@/components/nav-link'
 import { Button } from '@/components/ui/button'
 import {
   Sheet,
@@ -35,16 +36,16 @@ export function Header() {
           <span>EcoAção</span>
         </Link>
 
-        {/* DESKTOP NAVBAR */}
-        <div className="hidden lg:flex">
+        {/* Desktop NavBar */}
+        <nav className="hidden lg:flex">
           <ul className="flex items-center gap-6 font-medium tracking-tight text-gray-500">
             {navLinks.map((link) => (
               <li key={link.id} className="cursor-pointer hover:text-primary">
-                <Link to={link.href}>{link.title}</Link>
+                <NavLink to={link.href}>{link.title}</NavLink>
               </li>
             ))}
           </ul>
-        </div>
+        </nav>
         <div className="hidden lg:flex">
           <Link to="/contato">
             <Button className="w-28 text-sm tracking-tight text-black">
@@ -53,8 +54,8 @@ export function Header() {
           </Link>
         </div>
 
-        {/* MOBILE NAVBAR */}
-        <div className="lg:hidden">
+        {/* Mobile NavBar */}
+        <nav className="lg:hidden">
           <Sheet>
             <SheetTrigger asChild>
               <Button size="icon">
@@ -90,7 +91,7 @@ export function Header() {
               </Link>
             </SheetContent>
           </Sheet>
-        </div>
+        </nav>
       </div>
     </header>
   )
