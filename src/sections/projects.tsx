@@ -1,6 +1,6 @@
 export function Projects() {
   return (
-    <section className="bg-black p-10 lg:px-32">
+    <section className="bg-black p-10 lg:px-32" id="projects">
       <div className="mx-auto flex max-w-7xl flex-col items-center justify-center">
         <span className="font-semibold uppercase tracking-wider text-white">
           Projetos que realizamos
@@ -29,7 +29,7 @@ export function Projects() {
         </div>
 
         {/* Second Card */}
-        <div className="bg-card-two relative flex h-[375px] w-[350px] flex-col justify-between rounded-[20px] bg-cover bg-center p-12 pt-20 text-white">
+        <div className="relative flex h-[375px] w-[350px] flex-col justify-between rounded-[20px] bg-card-two bg-cover bg-center p-12 pt-20 text-white">
           {/* Opacity overlay */}
           <div className="absolute inset-0 rounded-[20px] bg-black opacity-50" />
 
@@ -45,7 +45,7 @@ export function Projects() {
         </div>
 
         {/* Third Card */}
-        <div className="bg-card-three relative flex h-[375px] w-[350px] flex-col justify-between rounded-[20px] bg-cover bg-center p-12 pt-20 text-white">
+        <div className="relative flex h-[375px] w-[350px] flex-col justify-between rounded-[20px] bg-card-three bg-cover bg-center p-12 pt-20 text-white">
           {/* Opacity overlay */}
           <div className="absolute inset-0 rounded-[20px] bg-black opacity-50" />
 
