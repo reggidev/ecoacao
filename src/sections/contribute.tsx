@@ -1,3 +1,5 @@
+import { Link } from 'react-router-dom'
+
 export function Contribute() {
   return (
     <section className="px-10 py-10 lg:px-32">
@@ -7,17 +9,11 @@ export function Contribute() {
         </span>
 
         <div className="mt-8 flex flex-col gap-4 md:flex-row md:gap-8">
-          <a href="#">
+          <Link to="/contato">
             <div className="rounded-lg border bg-primary px-8 py-4 text-center font-medium transition-all duration-200 hover:border hover:border-secondary hover:bg-secondary">
               Venha ser um voluntário
             </div>
-          </a>
-
-          <a href="#">
-            <div className="rounded-lg border bg-white px-8 py-4 text-center font-medium transition-all duration-200 hover:border hover:border-secondary hover:bg-primary">
-              Contato
-            </div>
-          </a>
+          </Link>
         </div>
       </div>
     </section>
