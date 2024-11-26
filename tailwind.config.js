@@ -5,11 +5,11 @@ export default {
   theme: {
     extend: {
       backgroundImage: {
-        'hero-background': "url('/src/assets/hero-background.jpg')",
-        'contribute-background': "url('/src/assets/forest-contribute.jpg')",
-        'card-one': "url('/src/assets/card-one.jpg')",
-        'card-two': "url('/src/assets/card-two.jpg')",
-        'card-three': "url('/src/assets/card-three.jpg')",
+        'hero-background': "url('/src/_assets/hero-background.jpg')",
+        'contribute-background': "url('/src/_assets/forest-contribute.jpg')",
+        'card-one': "url('/src/_assets/card-one.jpg')",
+        'card-two': "url('/src/_assets/card-two.jpg')",
+        'card-three': "url('/src/_assets/card-three.jpg')",
       },
       screens: {
         'know-about-us': '1175px',
@@ -21,6 +21,7 @@ export default {
         sm: 'calc(var(--radius) - 4px)',
       },
       colors: {
+        'gray-background': '#F1EFEF',
         background: 'hsl(var(--background))',
         foreground: 'hsl(var(--foreground))',
         card: {
