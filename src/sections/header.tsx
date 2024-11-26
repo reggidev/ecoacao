@@ -1,8 +1,8 @@
 import { MenuIcon } from 'lucide-react'
 import { Link } from 'react-router-dom'
 
-import { NavLink } from '@/components/nav-link'
-import { Button } from '@/components/ui/button'
+import { NavLink } from '@/_components/nav-link'
+import { Button } from '@/_components/ui/button'
 import {
   Sheet,
   SheetClose,
@@ -10,7 +10,7 @@ import {
   SheetHeader,
   SheetTitle,
   SheetTrigger,
-} from '@/components/ui/sheet'
+} from '@/_components/ui/sheet'
 
 const navLinks = [
   {
@@ -33,7 +33,7 @@ export function Header() {
           to="/"
           className="cursor-pointer text-2xl font-bold tracking-tighter"
         >
-          <span>EcoAção</span>
+          <span className="italic">EcoAção</span>
         </Link>
 
         {/* Desktop NavBar */}
@@ -73,7 +73,7 @@ export function Header() {
                     <SheetClose asChild>
                       <Button
                         variant="ghost"
-                        className="w-full text-sm font-semibold uppercase tracking-tight hover:bg-primary"
+                        className="w-full text-sm font-medium tracking-tight hover:bg-muted-foreground"
                         asChild
                       >
                         <Link to={link.href} className="text-right">
@@ -85,7 +85,7 @@ export function Header() {
                 ))}
               </div>
               <Link to="/contato">
-                <Button className="w-full text-sm font-semibold uppercase tracking-tight text-black">
+                <Button className="w-full text-sm font-medium uppercase tracking-tight text-black">
                   Contato
                 </Button>
               </Link>
