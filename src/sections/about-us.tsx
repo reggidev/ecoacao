@@ -1,6 +1,6 @@
 export function AboutUs() {
   return (
-    <section className="relative p-10 pb-20 lg:px-32">
+    <section className="relative p-10 lg:px-32">
       <div className="mx-auto flex max-w-2xl flex-col items-center justify-center text-center">
         <span className="font-semibold uppercase tracking-wider">
           Saiba mais sobre nós
