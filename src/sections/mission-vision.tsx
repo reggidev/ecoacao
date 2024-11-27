@@ -7,20 +7,19 @@ export function MissionVision() {
       <div className="mx-auto grid max-w-7xl grid-cols-1 out-mission:grid-cols-2">
         <div className="mx-auto max-w-[500px]">
           <span className="font-normal uppercase tracking-widest">
-            our mission
+            Nossa Missão
           </span>
 
           <h4 className="mt-1 text-xl font-bold">
-            We make sure to provide inclusive care for children with special
-            needs
+            Garantimos ações inclusivas para proteger o meio ambiente
           </h4>
 
           <p className="mt-2 text-justify">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-            varius enim in eros elementum tristique. Duis cursus, mi quis
-            viverra ornare, eros dolor interdum nulla, ut commodo diam libero
-            vitae erat. Aenean faucibus nibh et justo cursus id rutrum lorem
-            imperdiet. Nunc ut sem vitae risus tristique posuere.
+            Na EcoAção, acreditamos que o cuidado com o meio ambiente deve ser
+            acessível e inclusivo. Atuamos para criar um impacto positivo que
+            alcance todas as comunidades, promovendo iniciativas que inspiram a
+            preservação e a conscientização ambiental. Juntos, podemos construir
+            um planeta mais sustentável para todos.
           </p>
 
           <img src={missionCard} alt="Card One" className="mt-4 rounded-xl" />
@@ -28,19 +27,19 @@ export function MissionVision() {
 
         <div className="mx-auto mt-10 max-w-[500px] out-mission:mt-0">
           <span className="font-normal uppercase tracking-widest">
-            our Vision
+            Nossa Visão
           </span>
 
           <h4 className="mt-1 text-xl font-bold">
-            Provide more inclusive care to children around the world
+            Promovemos cuidado ambiental para todos ao redor do mundo
           </h4>
 
           <p className="mt-2 text-justify">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-            varius enim in eros elementum tristique. Duis cursus, mi quis
-            viverra ornare, eros dolor interdum nulla, ut commodo diam libero
-            vitae erat. Aenean faucibus nibh et justo cursus id rutrum lorem
-            imperdiet. Nunc ut sem vitae risus tristique posuere.
+            Sonhamos com um futuro onde o meio ambiente seja valorizado por
+            todos. Trabalhamos para unir pessoas, comunidades e culturas em
+            ações que promovem sustentabilidade, inclusão e respeito pela
+            natureza. Juntos, podemos transformar o mundo em um lugar mais verde
+            e acolhedor para as próximas gerações
           </p>
 
           <img src={visionCard} alt="Card One" className="mt-4 rounded-xl" />
