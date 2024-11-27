@@ -31,9 +31,9 @@ export function Header() {
       <div className="mx-auto flex max-w-7xl items-center justify-between">
         <Link
           to="/"
-          className="cursor-pointer text-2xl font-bold tracking-tighter"
+          className="cursor-pointer text-5xl font-bold tracking-tighter"
         >
-          <span className="italic">EcoAção</span>
+          <span className="font-birthstone italic">EcoAção</span>
         </Link>
 
         {/* Desktop NavBar */}
