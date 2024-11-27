@@ -4,8 +4,11 @@ export default {
   content: ['./index.html', './src/**/*.{js,ts,jsx,tsx}'],
   theme: {
     extend: {
+      fontFamily: {
+        birthstone: ['Birthstone', 'cursive'],
+      },
       height: {
-        'screen-minus-header-footer': 'calc(100vh - 88px - 36px)',
+        'screen-minus-header-footer': 'calc(100vh - 99.5px - 36px)',
       },
       backgroundImage: {
         'hero-background': "url('/src/_assets/hero-background.jpg')",
