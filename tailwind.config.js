@@ -4,6 +4,9 @@ export default {
   content: ['./index.html', './src/**/*.{js,ts,jsx,tsx}'],
   theme: {
     extend: {
+      height: {
+        'screen-minus-header-footer': 'calc(100vh - 88px - 36px)',
+      },
       backgroundImage: {
         'hero-background': "url('/src/_assets/hero-background.jpg')",
         'contribute-background': "url('/src/_assets/forest-contribute.jpg')",

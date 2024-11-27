@@ -1,45 +1,32 @@
 export function Contact() {
   return (
-    <section className="p-10 lg:px-32">
+    <section className="flex h-screen-minus-header-footer flex-col items-center justify-center p-10 lg:px-32">
       <div className="mx-auto flex max-w-2xl flex-col items-center justify-center text-center">
         <span className="font-semibold uppercase tracking-wider">
           Entre em contato conosco
         </span>
 
-        <h3 className="mt-4 max-w-sm text-3xl font-bold">
-          We&apos;d love to hear from you
+        <h3 className="mt-4 max-w-md text-3xl font-bold">
+          Estamos prontos para ouvir você
         </h3>
 
         <p className="mt-4 text-zinc-600">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-          varius enim in eros elementum tristique. Duis cursus, mi quis viverra
-          ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat.
-          Suspendisse varius enim elementum tristique.
+          Envie suas dúvidas, sugestões ou ideias. Estamos aqui para construir
+          um futuro mais sustentável, ouvindo e colaborando com você a cada
+          passo.
         </p>
       </div>
 
-      <div className="mx-auto mt-8 flex max-w-2xl flex-col items-center justify-center text-center">
+      <div className="mx-auto mt-6 grid max-w-lg grid-cols-1 items-center justify-center gap-4 text-center md:grid-cols-2">
         <div>
-          <p className="text-2xl font-bold">Let&apos;s talk!</p>
-
-          <span className="mt-2 block text-gray-600">(00) 00000-0000</span>
-          <span className="block text-gray-600">contato@email.com</span>
+          <span className="text-xl font-bold">Entre em contato</span>
+          <p className="text-muted-foreground">(00) 00000-0000</p>
+          <p className="text-muted-foreground">ecoacao@contato.com</p>
         </div>
 
         <div>
-          <p className="text-2xl font-bold">Office</p>
-
-          <span className="mt-2 text-gray-600">
-            8 Brewery Drive, Lagos, Nigeria.
-          </span>
-        </div>
-
-        <div>
-          <p className="text-2xl font-bold">Another Office</p>
-
-          <span className="mt-2 text-gray-600">
-            Opp Opolo round about, Yenagoa, Bayelsa, Nigeria
-          </span>
+          <span className="text-xl font-bold">Escritório</span>
+          <p className="text-muted-foreground">São Paulo, Brasil.</p>
         </div>
       </div>
     </section>

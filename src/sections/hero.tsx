@@ -21,7 +21,7 @@ export function Hero() {
           duration={500}
           className="mt-8"
         >
-          <div className="rounded-lg border bg-white px-8 py-4 transition-all duration-200 hover:border hover:border-secondary hover:bg-primary">
+          <div className="rounded-lg border bg-white px-6 py-4 transition-all duration-200 hover:border hover:border-secondary hover:bg-primary">
             Nossas ações
           </div>
         </ScrollLink>
