@@ -13,9 +13,9 @@ export default {
       backgroundImage: {
         'hero-background': "url('/src/_assets/hero-background.jpg')",
         'contribute-background': "url('/src/_assets/forest-contribute.jpg')",
-        'card-one': "url('/src/_assets/card-one.jpg')",
-        'card-two': "url('/src/_assets/card-two.jpg')",
-        'card-three': "url('/src/_assets/card-three.jpg')",
+        'card-one': "url('/src/_assets/green-campaign.jpg')",
+        'card-two': "url('/src/_assets/ecological-tours.jpg')",
+        'card-three': "url('/src/_assets/awareness-campaigns.jpg')",
       },
       screens: {
         'know-about-us': '1175px',
